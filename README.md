@@ -15,3 +15,4 @@ Projeto desenvolvido durante a semana de 26 de janeiro à 01 de fevereiro de 202
 
 ## Preview
 
+<img src="/src/readme/preview.gif"/>
