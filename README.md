@@ -1,2 +1,2 @@
-#Fundo Mágico
-##Gerador de background com IA
+# Fundo Mágico
+## Gerador de background com IA
