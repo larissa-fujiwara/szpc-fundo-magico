@@ -1,0 +1,114 @@
+body {
+    background: url(../images/bg.JPG);
+    color: #FAFAFA;
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.4;
+    padding: 32px 24px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.header h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+
+.header .subtitle{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1024px;
+    margin:0 auto;
+}
+
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.card-header{
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 20px;
+}
+
+.form-group textarea{
+    background-color:rgba(255, 255, 255, 0.05);
+    color: #FAFAFA;
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid #474646;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 16px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.form-group textarea:focus{
+    outline: none;
+    border-color: #cabeff;
+}
+
+.form-group textarea::placeholder {
+    color: #a19e9e;
+}
+
+.form-group .btn-magic {
+    width: 100%;
+    padding: 16px 32px;
+    background: linear-gradient(90deg, #f96814 0%, #6021ff 100%);
+    color: #eff4f8;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 0 0 10px #474646;
+    border: 0.5px solid #474646;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-group .btn-magic:hover {
+    transform: scale(1.01);
+}
+
+.preview-card {
+    display: none;
+}
+
+.code-grid {
+    display: flex;
+    gap:24px;
+}
+
+.code-card{
+    background-color: #21242a;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 24px;
+    width: 50%;
+}
+
+.code-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.code-block{
+    background-color: #0a0c10;
+    color: #e34187;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
